@@ -1,0 +1,6 @@
+/coverage/
+/test/
+/.*
+/karma.*
+/tests.*
+/webpack.*

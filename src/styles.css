@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .1;
+  transition: all .6s ease-in-out;
+}
+.backgroundWithOriginal {
+  composes: background;
+  z-index: 3;
+  opacity: 1;
+}
+
+.tiles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: transparent;
+  list-style: none;
+  transition: all .2s ease-in-out;
+}
+.tilesWithNumbers {
+  composes: tiles;
+  color: white;
+  text-shadow: 0 0 4px rgba(0,0,0, .15);
+}
+
+.tile {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  cursor: pointer;
+  box-shadow: inset 0 0 4px 0 rgba(0,0,0, .15);
+}
+.tileWithHole {
+  composes: tile;
+  cursor: default;
+  opacity: 0;
+}

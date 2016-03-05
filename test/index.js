@@ -1,12 +1,12 @@
 import {findDOMNode} from 'react-dom'
 import {renderIntoDocument} from 'react-addons-test-utils'
 
-import Puzzle from '../src/puzzle'
+import SlidingPuzzle from '../src/sliding/'
 import fixture from './image.svg'
 
-describe('Puzzle', function () {
+describe('SlidingPuzzle', function () {
   beforeEach(function () {
-    this.element = findDOMNode(renderIntoDocument(<Puzzle src={fixture} />))
+    this.element = findDOMNode(renderIntoDocument(<SlidingPuzzle src={fixture} />))
   })
 
   it('renders', function () {

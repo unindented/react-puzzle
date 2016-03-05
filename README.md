@@ -25,7 +25,7 @@ You'll find the development (`react-puzzle.js`) and production (`react-puzzle.mi
 ## Usage
 
 ```js
-import Puzzle from 'react-puzzle'
+import {SlidingPuzzle} from 'react-puzzle'
 import {render} from 'react-dom'
 
 render(

@@ -1,1 +1,1 @@
-export {Puzzle as default} from './puzzle'
+export SlidingPuzzle from './sliding/'

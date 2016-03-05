@@ -4,7 +4,7 @@ import clamp from 'lodash/clamp'
 
 import Wrapper from './wrapper'
 
-export default class Puzzle extends Component {
+export default class SlidingPuzzle extends Component {
   static propTypes = {
     rows: PropTypes.number,
     cols: PropTypes.number,

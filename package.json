@@ -29,7 +29,7 @@
   "dependencies": {
     "core-decorators": "^0.12.0",
     "lodash": "^4.6.1",
-    "react": "^0.14.7",
+    "react": "^15.0.0",
     "react-motion": "^0.4.2"
   },
   "devDependencies": {

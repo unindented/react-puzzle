@@ -55,7 +55,7 @@
     "isparta-loader": "^2.0.0",
     "jasmine-core": "^2.4.1",
     "jasmine-jquery-matchers": "^1.0.1",
-    "jquery": "^2.2.0",
+    "jquery": "^3.0.0",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.0.0",

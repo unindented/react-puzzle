@@ -1,4 +1,4 @@
-import {Component, PropTypes} from 'react'
+import React, {Component, PropTypes} from 'react'
 import autobind from 'core-decorators/lib/autobind'
 import clamp from 'lodash/clamp'
 import range from 'lodash/range'

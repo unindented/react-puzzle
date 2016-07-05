@@ -1,4 +1,4 @@
-import {Component, PropTypes} from 'react'
+import React, {Component, PropTypes} from 'react'
 import {Motion, spring} from 'react-motion'
 import autobind from 'core-decorators/lib/autobind'
 import {getMatrixPosition, getVisualPosition} from './utils'

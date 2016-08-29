@@ -44,7 +44,7 @@
     "coveralls": "^2.11.6",
     "css-loader": "^0.24.0",
     "eslint": "^3.0.0",
-    "eslint-config-standard": "^5.1.0",
+    "eslint-config-standard": "^6.0.0",
     "eslint-config-standard-jsx": "^3.0.0",
     "eslint-config-standard-react": "^4.0.0",
     "eslint-plugin-promise": "^2.0.0",

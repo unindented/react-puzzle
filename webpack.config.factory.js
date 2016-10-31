@@ -56,17 +56,17 @@ module.exports = function (options) {
       loaders: [
         {
           test: /\.css$/,
-          exclude: /node_modules[\\\/]/,
+          exclude: /node_modules[\\/]/,
           loader: 'style!css?modules'
         },
         {
           test: /\.jsx?$/,
-          exclude: /node_modules[\\\/]/,
+          exclude: /node_modules[\\/]/,
           loader: hasCoverage ? 'isparta' : 'babel'
         },
         {
           test: /\.svg$/,
-          exclude: /node_modules[\\\/]/,
+          exclude: /node_modules[\\/]/,
           loader: 'file'
         },
         {
